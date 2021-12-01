@@ -1,5 +1,5 @@
 {
-    "name": "kkokk/poster",
+    "name": "tegic/poster",
     "description": "PHP生成海报",
     "type": "project",
     "require": {
@@ -7,20 +7,17 @@
     },
     "license": "MIT",
     "authors": [
-        {
-            "name": "lang",
-            "email": "732853989@qq.com"
-        }
+
     ],
     "minimum-stability": "dev",
     "autoload":{
         "psr-4":{
-            "Kkokk\\Poster\\":"src/"
+            "Tegic\\Poster\\":"src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kkokk\\Tests\\": "tests/"
+            "Tegic\\Tests\\": "tests/"
         }
     }
 }

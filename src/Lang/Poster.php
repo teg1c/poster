@@ -1,5 +1,5 @@
 <?php
-namespace Kkokk\Poster\Lang;
+namespace Tegic\Poster\Lang;
 /**
  * @Author: lang
  * @Email:  732853989@qq.com
@@ -8,7 +8,7 @@ namespace Kkokk\Poster\Lang;
  * @Last Modified time: 2021-09-09 10:33:59
  * 接口模式
  */
-use Kkokk\Poster\Interfaces\MyPoster;
+use Tegic\Poster\Interfaces\MyPoster;
 
 /**
  * 执行

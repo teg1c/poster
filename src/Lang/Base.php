@@ -1,5 +1,5 @@
 <?php
-namespace Kkokk\Poster\Lang;
+namespace Tegic\Poster\Lang;
 require_once(__DIR__."/../PHPQrcode/phpqrcode.php");
 /**
  * @Author: lang
@@ -8,7 +8,7 @@ require_once(__DIR__."/../PHPQrcode/phpqrcode.php");
  * @Last Modified by:   lang
  * @Last Modified time: 2021-09-09 10:19:35
  */
-use Kkokk\Poster\Exception\PosterException;
+use Tegic\Poster\Exception\PosterException;
 /**
  * 
  */
@@ -33,7 +33,7 @@ class Base
 	];
 
 
-	public function __construct($params = [])
+	public function __construct($params = [],$path = '')
 	{
         if(!empty($params) && !is_array($params)){
             $params = [$params];
@@ -72,8 +72,8 @@ class Base
 	        }
         }
 
-		$this->path = iconv("UTF-8", "GBK", $_SERVER['DOCUMENT_ROOT']);
-        $this->path = $this->path?$this->path.'/':__DIR__.'/../../tests/';
+//		$this->path = iconv("UTF-8", "GBK", $_SERVER['DOCUMENT_ROOT']);
+        $this->path = $path ? $path :$this->path;
 
 	}
 

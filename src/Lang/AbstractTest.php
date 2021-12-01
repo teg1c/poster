@@ -1,6 +1,6 @@
 <?php
-namespace Kkokk\Poster\Lang;
-use Kkokk\Poster\Abstracts\PosterAbstract;
+namespace Tegic\Poster\Lang;
+use Tegic\Poster\Abstracts\PosterAbstract;
 /**
  * @Author: lang
  * @Email:  732853989@qq.com

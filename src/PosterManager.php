@@ -1,5 +1,5 @@
 <?php
-namespace Kkokk\Poster;
+namespace Tegic\Poster;
 
 /**
  * PHP海报生成，添加水印
@@ -9,10 +9,10 @@ namespace Kkokk\Poster;
  * @Last Modified by:   lang
  * @Last Modified time: 2021-09-08 10:23:08
  */
-use Kkokk\Poster\Exception\SystemException;
-use Kkokk\Poster\Interfaces\MyPoster;
-use Kkokk\Poster\Lang\Poster;//
-use Kkokk\Poster\Lang\PosterAbstract;//
+use Tegic\Poster\Exception\SystemException;
+use Tegic\Poster\Interfaces\MyPoster;
+use Tegic\Poster\Lang\Poster;//
+use Tegic\Poster\Lang\PosterAbstract;//
 
 class PosterManager 
 {

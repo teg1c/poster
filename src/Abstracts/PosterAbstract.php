@@ -1,7 +1,7 @@
 <?php
-namespace Kkokk\Poster\Abstracts;
-use Kkokk\Poster\Exception\PosterException;
-use Kkokk\Poster\Lang\Base;
+namespace Tegic\Poster\Abstracts;
+use Tegic\Poster\Exception\PosterException;
+use Tegic\Poster\Lang\Base;
 /**
  * @Author: lang
  * @Email:  732853989@qq.com

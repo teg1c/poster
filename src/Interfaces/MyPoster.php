@@ -1,5 +1,5 @@
 <?php
-namespace Kkokk\Poster\Interfaces;
+namespace Tegic\Poster\Interfaces;
 /**
  * @Author: lang
  * @Email:  732853989@qq.com

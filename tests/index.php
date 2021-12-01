@@ -1,7 +1,7 @@
 <?php
-namespace Kkokk\Tests;
-use Kkokk\Poster\Exception\Exception;
-use Kkokk\Poster\PosterManager;
+namespace Tegic\Tests;
+use Tegic\Poster\Exception\Exception;
+use Tegic\Poster\PosterManager;
 
 require '../vendor/autoload.php';
 /**
