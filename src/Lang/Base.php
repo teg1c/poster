@@ -33,7 +33,7 @@ class Base
 	];
 
 
-	public function __construct($params = [],$path = '')
+	public function __construct($params = [])
 	{
         if(!empty($params) && !is_array($params)){
             $params = [$params];
@@ -72,8 +72,11 @@ class Base
 	        }
         }
 
+        if (isset($params[1])){
+            $this->path = $params[1];
+        }
 //		$this->path = iconv("UTF-8", "GBK", $_SERVER['DOCUMENT_ROOT']);
-        $this->path = $path ? $path :$this->path;
+
 
 	}
 
